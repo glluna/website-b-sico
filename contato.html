@@ -9,11 +9,31 @@
    <header>
     <h2>Contato</h2>
     <p>Informe os seus dados para contato</p>
+    <nav><a href="home.html">Página Inicial</a></nav>
    </header>
 
    <form>
-    <input type="text" name="name">
-    <button>Enviar</button>
+    <p>
+    <label for: "nome">Nome: </label>
+    <input type="text" class="formulario"  name="name">
+    </p>
+
+    <p>
+    <label for: "email">Email: </label>
+    <input type="email" class="formulario" name="email">
+    </p>
+
+    <p>
+    <label for: "tel">Telefone: </label>
+    <input type="tel" class="formulario" name="telefone">
+    </p>
+
+    <p>
+    <label for: "msg">Mensagem: </label><br>
+    <textarea name="mensagem" class="formulario" rows="4" cols="50" placeholder="Escreva aqui a sua mensagem..."></textarea>
+    </p>
+
+    <button type="submit" id="botao-enviar">Enviar</button>
    </form>
 </body>
 </html>
